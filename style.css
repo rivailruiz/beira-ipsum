@@ -1,0 +1,171 @@
+html {
+	background: url("gull.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Lato', sans-serif;
+	line-height: 1.325em;
+	font-size: 1.02em;
+	color: #555;
+	font-weight: 700;
+}	
+
+p {
+	margin: 15px 0;
+}	
+
+strong {
+	font-size: 1.5em;
+}
+
+header {
+	background: #111;
+	min-height: 100px;
+}
+
+.wrapper {
+	position: relative;
+	width: 100%;
+	max-width: 750px;
+	margin: 0 auto;
+}
+
+#logo {
+	max-width: 50%;
+	margin-top: 15px;
+	float: left;
+}
+
+h1 {
+	display: none;
+	margin-bottom: 20px;
+	padding-bottom: 3px;
+	font-size: 1.05em;
+	text-transform: uppercase;
+	color: #333;
+	border-bottom: 1px dotted #333;
+}
+
+
+#about ipsum_container {
+	background: #fff;
+}
+
+input#paragraphs {
+	width: 20px;
+	padding-left: 5px;
+	background: none;
+	font-size: .9em;
+	color: #333;
+}
+
+label {
+	padding: 10px;
+	text-transform: uppercase;
+	font-size: .9em;
+	color: #333;
+}
+
+button {
+	display: block;
+	float: right;
+	padding: 4px;
+	background: #333;
+	border: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+button:hover {
+	background: #777;
+	cursor: pointer;
+}
+
+#ipsum_request {
+	width: 200px;
+	float: right;
+	margin-top: 15px;
+	padding: 5px;
+	background: rgba(255,255,255,.9);
+	border-radius: 3px;
+}
+
+#ipsum_container {
+	margin-top: 50px;
+	padding: 30px;
+	margin-bottom: 145px;
+	clear: both;
+	border-radius: 5px;
+}
+
+#ipsum_container a:link,
+#ipsum_container a:visited,
+#ipsum_container a:active,
+	{
+	display: inline-block;
+	padding-bottom: 1px;
+	text-decoration: none;
+	color: #9f3920;
+	border-bottom: 1px dotted #9f3920;
+}
+
+#about #ipsum_container {
+	background: #fff;
+}
+
+nav {
+	float: right;
+	margin-top: 40px;
+}
+
+nav li {
+	float: left;
+	padding-right: 20px;
+}
+
+nav li:last-child {
+	padding-right: 0;
+}
+
+nav li a:link,
+nav li a:visited {
+	text-decoration: none;
+	color: #fff;
+	transition: all .3s;
+}
+
+nav li a:hover,
+nav li a:active {
+	color: #ff3926;
+}
+
+#footer {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	background: #ff3926;
+}
+
+#footer_content {
+	text-align: center;
+	width: 100%;
+	max-width: 750px;
+	margin: 0 auto;
+}
+
+#footer p {
+	color: #333;
+	line-height: 1.3em;
+}
+
+#footer a:link,
+#footer a:visited,
+#footer a:active {
+	display: inline-block;
+	padding-bottom: 1px;
+	text-decoration: none;
+	border-bottom: 1px dotted #fff;
+	color: #fff;
+}
