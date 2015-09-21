@@ -1,0 +1,263 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../var/lib/gems/1.8/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../var/lib/gems/1.8/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../var/lib/gems/1.8/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../var/lib/gems/1.8/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../var/lib/gems/1.8/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../var/lib/gems/1.8/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../var/lib/gems/1.8/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../var/lib/gems/1.8/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../var/lib/gems/1.8/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 8, ../sass/style.scss */
+html {
+  background: url("../img/gull.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.325em;
+  font-size: 1.02em;
+  color: #555;
+  font-weight: 700;
+}
+
+/* line 21, ../sass/style.scss */
+p {
+  margin: 15px 0;
+}
+
+/* line 25, ../sass/style.scss */
+strong {
+  font-size: 1.5em;
+}
+
+/* line 29, ../sass/style.scss */
+header {
+  background: #111;
+  min-height: 100px;
+}
+
+/* line 34, ../sass/style.scss */
+.wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+/* line 41, ../sass/style.scss */
+#logo {
+  max-width: 50%;
+  margin-top: 15px;
+  float: left;
+}
+
+/* line 47, ../sass/style.scss */
+h1 {
+  display: none;
+  margin-bottom: 20px;
+  padding-bottom: 3px;
+  font-size: 1.05em;
+  text-transform: uppercase;
+  color: #333;
+  border-bottom: 1px dotted #333;
+}
+
+/* line 58, ../sass/style.scss */
+#about ipsum_container {
+  background: #fff;
+}
+
+/* line 62, ../sass/style.scss */
+input#paragraphs {
+  width: 20px;
+  padding-left: 5px;
+  background: none;
+  font-size: .9em;
+  color: #333;
+}
+
+/* line 70, ../sass/style.scss */
+label {
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: .9em;
+  color: #333;
+}
+
+/* line 77, ../sass/style.scss */
+button {
+  display: block;
+  float: right;
+  padding: 4px;
+  background: #333;
+  border: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* line 87, ../sass/style.scss */
+button:hover {
+  background: #777;
+  cursor: pointer;
+}
+
+/* line 92, ../sass/style.scss */
+#ipsum_request {
+  width: 200px;
+  float: right;
+  margin-top: 15px;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 3px;
+}
+
+/* line 101, ../sass/style.scss */
+#ipsum_container {
+  margin-top: 50px;
+  padding: 30px;
+  margin-bottom: 145px;
+  clear: both;
+  border-radius: 5px;
+}
+
+/* line 109, ../sass/style.scss */
+#ipsum_container a:link,
+#ipsum_container a:visited,
+#ipsum_container a:active {
+  display: inline-block;
+  padding-bottom: 1px;
+  text-decoration: none;
+  color: #9f3920;
+  border-bottom: 1px dotted #9f3920;
+}
+
+/* line 120, ../sass/style.scss */
+#about #ipsum_container {
+  background: #fff;
+}
+
+/* line 124, ../sass/style.scss */
+nav {
+  float: right;
+  margin-top: 40px;
+}
+
+/* line 129, ../sass/style.scss */
+nav li {
+  float: left;
+  padding-right: 20px;
+}
+
+/* line 134, ../sass/style.scss */
+nav li:last-child {
+  padding-right: 0;
+}
+
+/* line 138, ../sass/style.scss */
+nav li a:link,
+nav li a:visited {
+  text-decoration: none;
+  color: #fff;
+  transition: all .3s;
+}
+
+/* line 145, ../sass/style.scss */
+nav li a:hover,
+nav li a:active {
+  color: #ff3926;
+}
+
+/* line 150, ../sass/style.scss */
+#footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background: #ff3926;
+}
+
+/* line 158, ../sass/style.scss */
+#footer_content {
+  text-align: center;
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+/* line 165, ../sass/style.scss */
+#footer p {
+  color: #333;
+  line-height: 1.3em;
+}
+
+/* line 170, ../sass/style.scss */
+#footer a:link,
+#footer a:visited,
+#footer a:active {
+  display: inline-block;
+  padding-bottom: 1px;
+  text-decoration: none;
+  border-bottom: 1px dotted #fff;
+  color: #fff;
+}
