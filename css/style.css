@@ -69,7 +69,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 8, ../sass/style.scss */
 html {
-  background: url("../img/gull.jpg") no-repeat center center fixed;
+  background: url("gull.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -146,7 +146,7 @@ label {
 }
 
 /* line 77, ../sass/style.scss */
-button {
+input[type="submit"] {
   display: block;
   float: right;
   padding: 4px;
@@ -157,7 +157,7 @@ button {
 }
 
 /* line 87, ../sass/style.scss */
-button:hover {
+input[type="submit"]:hover {
   background: #777;
   cursor: pointer;
 }
@@ -180,8 +180,7 @@ button:hover {
   clear: both;
   border-radius: 5px;
 }
-
-/* line 109, ../sass/style.scss */
+/* line 107, ../sass/style.scss */
 #ipsum_container a:link,
 #ipsum_container a:visited,
 #ipsum_container a:active {
@@ -192,72 +191,65 @@ button:hover {
   border-bottom: 1px dotted #9f3920;
 }
 
-/* line 120, ../sass/style.scss */
+/* line 118, ../sass/style.scss */
 #about #ipsum_container {
   background: #fff;
 }
 
-/* line 124, ../sass/style.scss */
+/* line 122, ../sass/style.scss */
 nav {
   float: right;
   margin-top: 40px;
 }
-
-/* line 129, ../sass/style.scss */
+/* line 125, ../sass/style.scss */
 nav li {
   float: left;
   padding-right: 20px;
 }
-
-/* line 134, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 nav li:last-child {
   padding-right: 0;
 }
-
-/* line 138, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 nav li a:link,
 nav li a:visited {
   text-decoration: none;
   color: #fff;
   transition: all .3s;
 }
-
-/* line 145, ../sass/style.scss */
+/* line 137, ../sass/style.scss */
 nav li a:hover,
 nav li a:active {
-  color: #ff3926;
+  color: gold;
 }
 
-/* line 150, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 #footer {
   position: fixed;
   width: 100%;
   left: 0;
   bottom: 0;
-  background: #ff3926;
+  background: rgba(0, 0, 0, 0.7);
+}
+/* line 150, ../sass/style.scss */
+#footer p {
+  color: #fff;
+  line-height: 1.3em;
+  margin: 0;
+  padding: 5px;
+}
+/* line 156, ../sass/style.scss */
+#footer a:link,
+#footer a:visited,
+#footer a:active {
+  text-decoration: none;
+  color: gold;
 }
 
-/* line 158, ../sass/style.scss */
+/* line 164, ../sass/style.scss */
 #footer_content {
   text-align: center;
   width: 100%;
   max-width: 750px;
   margin: 0 auto;
-}
-
-/* line 165, ../sass/style.scss */
-#footer p {
-  color: #333;
-  line-height: 1.3em;
-}
-
-/* line 170, ../sass/style.scss */
-#footer a:link,
-#footer a:visited,
-#footer a:active {
-  display: inline-block;
-  padding-bottom: 1px;
-  text-decoration: none;
-  border-bottom: 1px dotted #fff;
-  color: #fff;
 }

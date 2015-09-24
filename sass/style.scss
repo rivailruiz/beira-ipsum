@@ -74,7 +74,7 @@ label {
 	color: #333;
 }
 
-button {
+input[type="submit"] {
 	display: block;
 	float: right;
 	padding: 4px;
@@ -84,7 +84,7 @@ button {
 	color: #fff;
 }
 
-button:hover {
+input[type="submit"]:hover {
 	background: #777;
 	cursor: pointer;
 }
@@ -104,17 +104,15 @@ button:hover {
 	margin-bottom: 145px;
 	clear: both;
 	border-radius: 5px;
-}
-
-#ipsum_container a:link,
-#ipsum_container a:visited,
-#ipsum_container a:active,
-	{
-	display: inline-block;
-	padding-bottom: 1px;
-	text-decoration: none;
-	color: #9f3920;
-	border-bottom: 1px dotted #9f3920;
+	a:link,
+	a:visited,
+	a:active {
+		display: inline-block;
+		padding-bottom: 1px;
+		text-decoration: none;
+		color: #9f3920;
+		border-bottom: 1px dotted #9f3920;
+	}
 }
 
 #about #ipsum_container {
@@ -124,27 +122,23 @@ button:hover {
 nav {
 	float: right;
 	margin-top: 40px;
-}
-
-nav li {
-	float: left;
-	padding-right: 20px;
-}
-
-nav li:last-child {
-	padding-right: 0;
-}
-
-nav li a:link,
-nav li a:visited {
-	text-decoration: none;
-	color: #fff;
-	transition: all .3s;
-}
-
-nav li a:hover,
-nav li a:active {
-	color: #ff3926;
+	li {
+		float: left;
+		padding-right: 20px;
+		&:last-child {
+			padding-right: 0;
+		}
+		a:link,
+		a:visited {
+			text-decoration: none;
+			color: #fff;
+			transition: all .3s;
+		}
+		a:hover,
+		a:active {
+			color: gold;
+		}
+	}
 }
 
 #footer {
@@ -152,7 +146,19 @@ nav li a:active {
 	width: 100%;
 	left: 0;
 	bottom: 0;
-	background: #ff3926;
+	background: rgba(0,0,0,.7);
+	p {
+		color: #fff;
+		line-height: 1.3em;
+		margin: 0;
+		padding: 5px;
+	}
+	a:link,
+	a:visited,
+	a:active {
+		text-decoration: none;
+		color: gold;
+	}
 }
 
 #footer_content {
@@ -160,19 +166,4 @@ nav li a:active {
 	width: 100%;
 	max-width: 750px;
 	margin: 0 auto;
-}
-
-#footer p {
-	color: #333;
-	line-height: 1.3em;
-}
-
-#footer a:link,
-#footer a:visited,
-#footer a:active {
-	display: inline-block;
-	padding-bottom: 1px;
-	text-decoration: none;
-	border-bottom: 1px dotted #fff;
-	color: #fff;
 }
