@@ -13,5 +13,5 @@ http.createServer(function (request, response) {
   router.js(request, response);
   router.logo(request, response);  
   router.bgImage(request, response);    
-}).listen(5000);
-console.log('Server running at Port 5000');
+}).listen(process.env.PORT || 5000);
+console.log('Server running at Port:' + process.env.PORT || 5000);
