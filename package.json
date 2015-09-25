@@ -1,0 +1,19 @@
+{
+  "name": "ipsum",
+  "version": "1.0.0",
+  "description": "A seagull-themed lorem ipsum generator built using Node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trohweder85/ipsum.git"
+  },
+  "author": "Tim Rohweder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trohweder85/ipsum/issues"
+  },
+  "homepage": "https://github.com/trohweder85/ipsum"
+}
