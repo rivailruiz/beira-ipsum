@@ -45,18 +45,12 @@ header {
 }
 
 h1 {
-	display: none;
 	margin-bottom: 20px;
 	padding-bottom: 3px;
 	font-size: 1.05em;
 	text-transform: uppercase;
 	color: #333;
 	border-bottom: 1px dotted #333;
-}
-
-
-#about ipsum_container {
-	background: #fff;
 }
 
 input#paragraphs {
@@ -82,28 +76,28 @@ input[type="submit"] {
 	border: none;
 	text-transform: uppercase;
 	color: #fff;
+	&:hover {
+		background: #777;
+		cursor: pointer;
+	}
 }
 
-input[type="submit"]:hover {
-	background: #777;
-	cursor: pointer;
-}
-
-#ipsum_request {
+#ipsum-request {
 	width: 200px;
 	float: right;
 	margin-top: 15px;
+	margin-bottom: 30px;
 	padding: 5px;
-	background: rgba(255,255,255,.9);
 	border-radius: 3px;
 }
 
-#ipsum_container {
-	margin-top: 50px;
+#ipsum-container {
 	padding: 30px;
 	margin-bottom: 145px;
+	margin-top: 50px;
 	clear: both;
 	border-radius: 5px;
+	background: rgba(255,255,255,.8);
 	a:link,
 	a:visited,
 	a:active {
@@ -113,10 +107,6 @@ input[type="submit"]:hover {
 		color: #9f3920;
 		border-bottom: 1px dotted #9f3920;
 	}
-}
-
-#about #ipsum_container {
-	background: #fff;
 }
 
 nav {
@@ -159,11 +149,10 @@ nav {
 		text-decoration: none;
 		color: gold;
 	}
-}
-
-#footer_content {
-	text-align: center;
-	width: 100%;
-	max-width: 750px;
-	margin: 0 auto;
+	&-content {
+		text-align: center;
+		width: 100%;
+		max-width: 750px;
+		margin: 0 auto;
+	}
 }
