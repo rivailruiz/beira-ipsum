@@ -2,7 +2,7 @@
 // The vast majority of the server and template engine code
 // was built follwing the Node.js tutorial at teamtreehouse.com
 
-var router = require("./router.js");
+var router = require("./js/router.js");
 
 // Create a web server
 var http = require('http');

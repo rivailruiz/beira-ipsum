@@ -1,5 +1,9 @@
 var fs = require("fs");
 
+// ----------------------------------------------------------------------
+// Not currently using mergeValues, but will leave for possible future use
+// ----------------------------------------------------------------------
+
 function mergeValues(values, content) {
   // Cycle over the keys
   for (var key in values) {

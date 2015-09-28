@@ -55,7 +55,7 @@ function css(request, response) {
 // Handle HTTP route for the JavaScript file
 function js(request, response) {
   if(request.url.indexOf('.js') != -1){
-      var js = fs.readFileSync('./ipsum.js');
+      var js = fs.readFileSync('./js/ipsum.js');
       response.writeHead(200, {'Content-Type': 'text/js'});
       response.write(js);
       response.end();
