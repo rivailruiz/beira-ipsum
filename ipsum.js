@@ -78,6 +78,13 @@ $("#ipsum-request [type='submit']").on("click", function() {
 	gullIpsum.displayOutput();
 })
 
+// Bind 'Return key' keypress to output function
+$("#ipsum-request input[type='text'").keypress(function(event) {
+	if (event.which == 13) {
+		gullIpsum.displayOutput();
+	}
+});
+
 // Display sample ipsum on home page load, prevents About page content
 // from being overwritten
 if ($("body").is("#home")) {
