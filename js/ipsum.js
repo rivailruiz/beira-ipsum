@@ -80,7 +80,6 @@ $("#ipsum-request [type='submit']").on("click", function() {
 
 // Bind 'Return key' keypress to output function
 $("#ipsum-request input[type='text']").keypress(function(event) {
-	console.log("clicked!");
 	if (event.which == 13) {	
 		gullIpsum.displayOutput();
 	}
