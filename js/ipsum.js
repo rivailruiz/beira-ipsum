@@ -3,7 +3,6 @@ var gullIpsum = new IpsumGenerator();
 
 function IpsumGenerator() {
 	this.words = [
-<<<<<<< HEAD
 	"eu chego ali, eu fico igual o bautiman de cabeça pra baixo", 
 	"galinhas voces gostam de ser gastada hein", 
 	"Romario de um porradao na cara dele e blaa e bluuum", 
@@ -47,27 +46,6 @@ function IpsumGenerator() {
 	"meninada", 
 	"voce nao gela", 
 	"beiraaaao"];
-=======
-		"blinblom", 
-		"eu chego ali, eu fico igual o bautiman de cabeça pra baixo", 
-		"galinhas voces gostam de ser gastada hein" , 
-		"Romario de um porradao na cara dele e blaa e bluuum", 
-		"vou beber uma drehinha aquela que esquenta ate dar aquela suada e depois a tremedeira hummm delicia", 
-		"sai fora. beira nao se relaciona com veganos", 
-		"puta que pariu mane para de imitar o meu blimblom porra",
-		"blim blommmmmm ribeirao oficiaaaaaaal",
-		"entrei la nas laranjeiras",
-		"entrei la nas laranjeiras",
-		"entrei la nas laranjeiras",
-		"entrei la nas laranjeiras",
-		"entrei la nas laranjeiras",
-		"entrei la nas laranjeiras",
-		"entrei la nas laranjeiras",
-		"entrei la nas laranjeiras",
-		"entrei la nas laranjeiras",
-		"entrei la nas laranjeiras"
-	];
->>>>>>> 36fd27fb5128ff7679d16c422427fe8feb865a13
 	this.lastTenWords = [];
 }
 
