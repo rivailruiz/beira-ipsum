@@ -1,19 +1,19 @@
 {
-  "name": "ipsum",
+  "name": "beira ipsum",
   "version": "1.0.0",
-  "description": "A seagull-themed lorem ipsum generator built using Node.js",
+  "description": "Gerador de frases de beirao",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/trohweder85/ipsum.git"
+    "url": "https://github.com/rivailruiz/beira-ipsum"
   },
-  "author": "Tim Rohweder",
+  "author": "Alexander Ruiz",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/trohweder85/ipsum/issues"
+    "url": "https://github.com/rivailruiz/beira-ipsum"
   },
-  "homepage": "https://github.com/trohweder85/ipsum"
+  "homepage": "https://github.com/rivailruiz/beira-ipsum"
 }
