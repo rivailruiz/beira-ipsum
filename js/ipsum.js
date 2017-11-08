@@ -2,7 +2,50 @@
 var gullIpsum = new IpsumGenerator();
 
 function IpsumGenerator() {
-	this.words = ["pacific", "belcher's", "olrog's", "black-tailed", "heermann's", "common gull", "ring-billed", "california", "great black-backed", "kelp", "glaucous-winged", "western", "yellow-footed", "glacous", "iceland", "kumlien's", "thayer's", "european herring", "american herring", "caspian", "yellow-legged", "east siberian", "armenian", "slaty-backed", "lesser black-backed", "heuglin's", "white-eyed", "sooty", "great black-headed", "pallas's", "audouin's", "mediterranean", "relict", "dolphin", "laughing", "franklin's", "lava", "gray", "silver", "red-billed", "hartlaub's", "brown-hooded", "gray-headed", "andean", "black-billed", "brown-headed", "black-headed", "slender-billed", "bonaparte's", "saunder's", "little", "ross's", "black-legged kittiwake", "red-legged kittiwake", "ivory", "sabine's", "swallow-tailed", "dirty scavenger", "beady-eyed", "harsh wailing", "squawking call", "ground-nesting carnivore", "unhinging jaws", "proud of plumage", "colonization", "you're not going to finish those fries, are you", "kleptoparasitism", "enemy of whales", "ubiquitous", "migratory", "cunning", "give me that bread now", "aim ready poop", "king of the lamppost", "charadriiformes", "lari", "laridae", "gangsters of the air"];
+	this.words = [
+	"eu chego ali, eu fico igual o bautiman de cabeça pra baixo", 
+	"galinhas voces gostam de ser gastada hein", 
+	"Romario de um porradao na cara dele e blaa e bluuum", 
+	"vou beber uma drehinha aquela que esquenta ate dar aquela suada e depois a tremedeira hummm delicia", 
+	"sai fora. beira nao se relaciona com veganos", 
+	"puta que pariu mane para de imitar o meu blimblom porra", 
+	"Blim Blooooommmmmm", 
+	"Ribeirao oficiaaaaaaal", 
+	"manda ele falarr", 
+	"quem eh ele. ele eh caleo ele?", 
+	"to chegando heinnnnn", 
+	"peito amassado", 
+	"vegano me fudeu com a cheirosa", 
+	"julga naaaaaooo", 
+	"me jogando de bola ja mane?", 
+	"doutor caio espindola eh meu amigo desde criancinha", 
+	"bandeirei na mancha", 
+	"rsrsrs", 
+	"bla bluhhhh blim blommmm", 
+	"caleo caleo", 
+	"ninof", 
+	"dreher", 
+	"garang", 
+	"Tenho que acender com vela mane, minha mãe sumiu com os fósforo e isqueiro da casa", 
+	"Falou que fui eu que sumi com os isqueiros manocu", 
+	"Vou trabucar agr", 
+	"voce eh meninada", 
+	"expertinho Vegan", 
+	"Uma coca combina bem com o garan que alias tem um ainda e vou trabucar agora", 
+	"as franguinha tão soltola dms mane, 1 dia de Tinder ja manda fotoca, papo de putaria", 
+	"e a tropa vai pra santos einnn", 
+	"to pegando uma la do acre", 
+	"vegano chegou na hungara querendo bacon", 
+	"to com bonezao da hungara", 
+	"sou vagabundo. so vou la receber", 
+	"de meias pretas", 
+	"ribeirao nao nega ", 
+	"o ribeirao ta vivo", 
+	"o bautiman chegou", 
+	"voce e garotada", 
+	"meninada", 
+	"voce nao gela", 
+	"beiraaaao"];
 	this.lastTenWords = [];
 }
 

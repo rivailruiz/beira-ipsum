@@ -69,7 +69,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 8, ../sass/style.scss */
 html {
-  background: url("gull.jpg") no-repeat center center fixed;
+  background: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -240,4 +240,11 @@ nav li a:active {
   width: 100%;
   max-width: 750px;
   margin: 0 auto;
+}
+
+
+.titulo {
+  font-size: 30px;
+  line-height: 90px;
+  color: white;
 }
