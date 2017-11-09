@@ -69,7 +69,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 8, ../sass/style.scss */
 html {
-  background: black;
+  background-image: url('https://preview.ibb.co/jw6cXb/beirafundo.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -77,7 +77,7 @@ html {
   font-family: 'Lato', sans-serif;
   line-height: 1.325em;
   font-size: 1.02em;
-  color: #555;
+  color: #fff;
   font-weight: 700;
 }
 
@@ -128,7 +128,7 @@ input#paragraphs {
   padding-left: 5px;
   background: none;
   font-size: .9em;
-  color: #333;
+  color: #fff;
 }
 
 /* line 64, ../sass/style.scss */
@@ -136,7 +136,7 @@ label {
   padding: 10px;
   text-transform: uppercase;
   font-size: .9em;
-  color: #333;
+  color: #fff;
 }
 
 /* line 71, ../sass/style.scss */
@@ -144,10 +144,10 @@ input[type="submit"] {
   display: block;
   float: right;
   padding: 4px;
-  background: #333;
+  background: #fff;
   border: none;
   text-transform: uppercase;
-  color: #fff;
+  color: black;
 }
 /* line 79, ../sass/style.scss */
 input[type="submit"]:hover {
@@ -157,6 +157,7 @@ input[type="submit"]:hover {
 
 /* line 85, ../sass/style.scss */
 #ipsum-request {
+  background: #555;
   width: 200px;
   float: right;
   margin-top: 15px;
@@ -167,6 +168,7 @@ input[type="submit"]:hover {
 
 /* line 94, ../sass/style.scss */
 #ipsum-container {
+  color: black;
   padding: 30px;
   margin-bottom: 145px;
   margin-top: 50px;
